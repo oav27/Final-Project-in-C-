@@ -18,6 +18,9 @@ Horror: Us, Get Out, Hereditary
 
 Let’s say the customer or user wants to see a movie that has a romance and comedy in it. With a prepopulated list of movies under each genre, you should write a function that will go through the genres, select the movies that are under each genre, and find the movies that match both romance and comedy. In this case, the project should return the movie “The Proposal.” 
 
+A small lesson on DataPoint plus explanation of constraint:
+DataPoint is a type of struct created that has two variables of information within it. A string called “label” and a double called “priority.” Due to the way that DataPoint was constructed, you cannot create a Set or a Map of Datapoints (Map <DataPoint>, ...). DataPoint was the creation of the CS106B instructors prior to my project.
+
 This code implementation was made to not be case sensitive, and using different abstrat data structures such as priority queue heaps, maps, and vectors.
 
 ***Display of Code at Work, and the Recommendation Tool at Use Below***
